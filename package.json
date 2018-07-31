@@ -1,0 +1,41 @@
+{
+  "name": "react-counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "postinstall": "webpack-dev-server --config ./webpack.config.js -p",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "author": "Arunkumar",
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-0"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "react-hot-loader": "^4.3.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "moment": "^2.22.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-datetime": "^2.15.0",
+    "react-dom": "^16.4.1"
+  },
+  "engines": {
+    "node": "8.4.0"
+  }
+}
